@@ -2,7 +2,7 @@
 import "./globals.css";
 import { ReactNode, useContext } from "react";
 import { ThemeProvider as MUIThemeProvider, CssBaseline } from "@mui/material";
-import { lightTheme, darkTheme } from "./theme";
+import { lightTheme, darkTheme } from "../theme";
 import { ThemeProvider, ThemeContext } from "../context/ThemeContext";
 
 function InnerApp({ children }: { children: ReactNode }) {
